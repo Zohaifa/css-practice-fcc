@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: fantasy;
+    letter-spacing: 0.1em;
+    line-height: 7em;
+    text-align: center;
+}
+nav{
+    margin:auto;
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 2rem;
+    width: 600px;
+}
+h2{
+    background-color: blue;
+    border-radius: 2rem 2rem 0 0;
+}
+li{
+    list-style-type: none;
+    border-top: 2.5px solid;
+    background-color: rgba(0, 255, 234, 0.26);
+}
+li:hover{
+    background-color: gold;
+}
+li:active{
+    background-color: orange;
+}
+:last-child{
+    border-radius: 0 0 2rem 2rem; 
+}
+a:visited{
+    color:black;   
+}
+a:focus{
+    color:red;
+}
+.dashed-price{
+    text-decoration:line-through;
+    color: red;
+}
+.price{
+    color:green
+}
