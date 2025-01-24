@@ -1,0 +1,16 @@
+body{
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ol{
+    list-style-type: upper-roman;
+}
+ul{
+    list-style-type:square;
+}
+ul ::marker{
+    color:blue;
+    font-family: fantasy;
+    font-size: 1.15em;
+}
