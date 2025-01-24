@@ -1,0 +1,18 @@
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    color: grey;
+    font-style: italic;
+    text-decoration: dotted;
+}
+a:hover, a:focus{
+    color:black;
+    background-color: gold;
+}
+a:active{
+    color:silver;
+}
+  
